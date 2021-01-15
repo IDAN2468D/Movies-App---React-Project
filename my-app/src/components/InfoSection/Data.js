@@ -1,6 +1,7 @@
 import Image_1 from '../../image/svg-1.svg';
 import Image_2 from '../../image/svg-2.svg';
 import Image_3 from '../../image/svg-3.svg';
+import Image_4 from '../../image/svg-4.svg';
 
 
 export const homeObjOne = {
@@ -20,6 +21,7 @@ export const homeObjOne = {
     primary: true,
     darkText: false
 }
+
 export const homeObjTwo = {
     id: "discover",
     lightBg: true,
@@ -40,9 +42,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: "signup",
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: "Premium Bnk",
     headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -51,7 +53,7 @@ export const homeObjThree = {
     imgStart: false,
     img: Image_3,
     alt: "Car",
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }

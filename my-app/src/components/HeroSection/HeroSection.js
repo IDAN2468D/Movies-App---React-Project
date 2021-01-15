@@ -26,9 +26,6 @@ const HeroContainer = styled.div`
 }
 `;
 
-
-
-
 const HeroBg = styled.div`
     position: absolute;
     top: 0;
@@ -60,7 +57,6 @@ const HeroContact = styled.div`
     align-items: center;
 `;
 
-
 const HeroH1 = styled.h1`
     color: #fff;
     font-size: 48px;
@@ -72,11 +68,10 @@ const HeroH1 = styled.h1`
     }
 
     @media screen and (max-width: 480px){
-        font-size: 32px;
+        font-size: 30px;
     }
 
 `;
-
 
 const HeroP = styled.p`
     margin-top: 24px;
@@ -94,7 +89,6 @@ const HeroP = styled.p`
         font-size: 18px;
     }
 `;
-
 
 const HeroBtnWrapper = styled.div`
     margin-top: 32px;
