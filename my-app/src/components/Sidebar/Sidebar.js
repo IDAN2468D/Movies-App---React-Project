@@ -118,7 +118,7 @@ function Sidebar({ isOpen, toggle }) {
                     </SlidebarLink>
                 </SidebarMenu>
                 <SidebarBtnWrap>
-                    <SideBarRoute to="/signin">Sign In</SideBarRoute>
+                    <SideBarRoute to="/singin">Sign In</SideBarRoute>
                 </SidebarBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
