@@ -1,7 +1,6 @@
 import Image_1 from '../../image/svg-1.svg';
 import Image_2 from '../../image/svg-2.svg';
 import Image_3 from '../../image/svg-3.svg';
-import Image_4 from '../../image/svg-4.svg';
 
 
 export const homeObjOne = {
