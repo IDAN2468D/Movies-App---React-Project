@@ -90,7 +90,6 @@ export const NavLink = styled(LinkS)`
     }
 
     &:active{
-        border-bottom: 5px solid #01bf71;
         transition: all 0.2s ease-in-out;
     }
 `;

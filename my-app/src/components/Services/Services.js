@@ -6,7 +6,8 @@ import {
     ServicesContainer,
     ServicesH1,
     ServicesWrapper,
-    ServicesCard, ServicesIcon,
+    ServicesCard,
+    ServicesIcon,
     ServicesH2,
     ServicesP
 } from '../Services/Styles';

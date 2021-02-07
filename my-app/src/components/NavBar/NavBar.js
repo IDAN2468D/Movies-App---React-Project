@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
 import {
     Nav,
     NavBarContainer,
@@ -37,54 +36,55 @@ function NavBar({ toggle }) {
     }
 
     return (
-        <IconContext.Provider value={{ color: "#fff" }}>
-            <Nav scrollNav={scrollNav}>
-                <NavBarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>dolla</NavLogo>
-                    <MobileIcon onClick={toggle}>
-                        <FaBars />
-                    </MobileIcon>
-                    <NavMenu>
-                        <NavItem>
-                            <NavLink to="about"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}
-                            >About</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to="discover"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}>Discover</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to="services"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}>Services</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to="signup"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}>Signup</NavLink>
-                        </NavItem>
-                    </NavMenu>
-                    <NavBtn>
-                        <NavBarLink to="/singin">Sing In</NavBarLink>
-                    </NavBtn>
-                </NavBarContainer>
-            </Nav>
-        </IconContext.Provider>
+        <Nav scrollNav={scrollNav}>
+            <NavBarContainer toggle={toggle}>
+                <NavLogo to="/" onClick={toggleHome}>dolla</NavLogo>
+                <MobileIcon onClick={toggle}>
+                    <FaBars />
+                </MobileIcon>
+                <NavMenu>
+                    <NavItem>
+                        <NavLink to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact="true"
+                            offset={-80}>About
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="discover"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact="true"
+                            offset={-80}>Discover
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="services"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact="true"
+                            offset={-80}>Services
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="signup"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact="true"
+                            offset={-80}>Signup
+                        </NavLink>
+                    </NavItem>
+                </NavMenu>
+                <NavBtn>
+                    <NavBarLink to="/singin">Sing In</NavBarLink>
+                </NavBtn>
+            </NavBarContainer>
+        </Nav>
     )
 }
 
