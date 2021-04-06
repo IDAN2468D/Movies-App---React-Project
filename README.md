@@ -1,1 +1,1 @@
-# Movies-App-React-Project
+# React-Project
